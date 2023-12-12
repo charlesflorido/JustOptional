@@ -3,7 +3,7 @@
 namespace JustOptional
 {
     [JsonConverter(typeof(OptionalJsonConverterFactory))]
-    public class Optional<T>
+    public struct Optional<T>
     {
         private T _value;
         
